@@ -2,28 +2,42 @@
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
 
-# Environments
+# Virtual environments
 .venv/
 venv/
+env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Secrets
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
 .env
-kaggle.json
+.env.*
 
 # Data
 data/raw/
 data/interim/
 data/processed/
 
-# Models
-models/*.pkl
-models/*.joblib
+# Models / artifacts
+artifacts/
+models/
 
-# OS / Editor
-.DS_Store
-Thumbs.db
-.vscode/
+# Logs
+logs/
+*.log
