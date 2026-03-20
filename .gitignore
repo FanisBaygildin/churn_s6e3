@@ -1,0 +1,29 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+kaggle.json
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+
+# Models
+models/*.pkl
+models/*.joblib
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
