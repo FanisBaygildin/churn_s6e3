@@ -16,7 +16,8 @@ dependencies = [
   "ipykernel",
   "joblib",
   "kaggle",
-  "python-dotenv"
+  "python-dotenv",
+  "lightgbm"
 ]
 
 [tool.setuptools]
